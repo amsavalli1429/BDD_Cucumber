@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="44.124" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Create Customer Account" name="Create new user with unique email" time="16.807">
+<system-out><![CDATA[
+Given the user is on the homepage with internet access......................passed
+When the user clicks "Create Account".......................................passed
+And the user enters personal information:...................................passed
+And the user enters unique sign-in information..............................passed
+And the user clicks on the "Create" button..................................passed
+Then the account should be created successfully.............................passed
+And the user clicks the "Sign Out" button...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create Customer Account" name="Sign In with Valid Credentials" time="18.474">
+<system-out><![CDATA[
+Given the user is on the homepage with internet access......................passed
+Given I am on the Sign In page..............................................passed
+When When I enter login credentials.........................................passed
+And I click on the "Sign In" button.........................................passed
+And I should be redirected to the dashboard.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
